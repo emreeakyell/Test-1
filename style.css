@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+.maincontainer {
+  width: 100%;
+  height: 100vh;
+}
+ul li {
+  list-style: none;
+  display: inline;
+  padding: 50px;
+}
+a {
+  text-decoration: none;
+}
+.navcontainer ul li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.headercontainer {
+  background-color: black;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+.buycar {
+  background-color: chocolate;
+  border-radius: 15px;
+  padding: 5px;
+  box-shadow: 3px 3px rgba(210, 105, 30, 0.4);
+}
+.buycar a {
+  text-decoration: none;
+  color: azure;
+  font-weight: bold;
+}
+
+.contentcontainer {
+  padding-top: 200px;
+  display: flex;
+}
+.leftside {
+  width: 750px;
+  padding-left: 50px;
+  width: 750px;
+  height: auto;
+}
+
+.h1 {
+  font-size: 53px;
+  font-weight: bold;
+}
+
+.contentleft {
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.h2 {
+  font-size: 24px;
+  font-weight: medium;
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.contentcontainer .leftside a {
+  border: 2px solid;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black;
+  background-color: chocolate;
+  border-color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 30px;
+  font-family: "Mukta", sans-serif;
+  transition: 0.2s ease-in-out;
+  box-shadow: 3px 3px rgba(210, 105, 30, 0.4);
+}
+.contentcontainer .leftside a:hover {
+  border-radius: 50px;
+}
+
+.buttons {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rightside {
+  margin-left: 150px;
+  margin-top: 30px;
+}
+.middle {
+  display: flex;
+}
+.dodge2 {
+  opacity: 0.7;
+}
+h3 {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.middle .middlecontentp {
+  font-size: 20px;
+}
+div .middlecontentbutton {
+  background-color: chocolate;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+div .middlecontentbutton:hover {
+  border-radius: 50px;
+}
+
+.learnmorebutton {
+  margin-top: 30px;
+}
